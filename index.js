@@ -44,4 +44,6 @@ const bookStore = {
 }
 
 // Write your code here!
+// Step 2: Select header
+const bookStoreTitle = document.getElementById('header');
 
