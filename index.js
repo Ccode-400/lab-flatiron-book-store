@@ -53,3 +53,7 @@ bookStoreTitle.textContent = bookStore.name;
 // Step 3: Select book list container
 const bookList = document.getElementById('book-list');
 
+// Loop through books
+bookStore.books.forEach(book => {
+
+    
