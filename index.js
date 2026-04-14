@@ -49,3 +49,7 @@ const bookStoreTitle = document.getElementById('header');
 
 // Update title with bookstore name
 bookStoreTitle.textContent = bookStore.name;
+
+// Step 3: Select book list container
+const bookList = document.getElementById('book-list');
+
