@@ -47,3 +47,5 @@ const bookStore = {
 // Step 2: Select header
 const bookStoreTitle = document.getElementById('header');
 
+// Update title with bookstore name
+bookStoreTitle.textContent = bookStore.name;
